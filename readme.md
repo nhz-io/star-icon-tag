@@ -1,12 +1,22 @@
-<p align="center"><img src="https://cdn.rawgit.com/nhz-io/star-icon-tag/master/examples/star.svg"></p>
+<p align="center">
+  <img src="https://cdn.rawgit.com/nhz-io/star-icon-tag/master/examples/star.svg"
+    alt="STAR">
+</p>
 <h1 align="center">star-icon-tag</h1>
 <p align="center">
   <a href="https://riotjs.com">
-    <img src="https://cdn.rawgit.com/nhz-io/star-icon-tag/master/riot.png" alt="RIOT">
+    <img src="https://cdn.rawgit.com/nhz-io/star-icon-tag/master/riot.png"
+      alt="RIOT">
   </a>
+  <a href="https://npmjs.org/package/star-icon-tag">
+    <img src="https://img.shields.io/npm/v/star-icon-tag.svg?style=flat"
+      alt="NPM Version">
+  </a>  
+
   <a href="https://travis-ci.org/nhz-io/star-icon-tag">
-    <img src="https://travis-ci.org/nhz-io/star-icon-tag.svg?branch=master" alt="build status">
-  </a>
+    <img src="https://img.shields.io/travis/nhz-io/star-icon-tag.svg?style=flat"
+      alt="Build Status">
+  </a>  
 </p>
 <h3 align="center">Make SVG Stars</h3>
 
