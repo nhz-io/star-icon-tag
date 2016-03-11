@@ -1,9 +1,12 @@
 node_modules
-.git
 examples
 src
 test
+.git
+.babelrc
 .editorconfig
 .gitattributes
+.gitignore
 .npmignore
 .travis.yml
+riot.png
