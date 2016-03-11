@@ -5,7 +5,7 @@
 <h1 align="center">star-icon-tag</h1>
 <p align="center">
   <a href="https://riotjs.com">
-    <img src="https://cdn.rawgit.com/nhz-io/star-icon-tag/master/riot.png"
+    <img src="https://cdn.rawgit.com/nhz-io/star-icon-tag/master/riot-badge.png"
       alt="RIOT">
   </a>
   <a href="https://npmjs.org/package/star-icon-tag">
