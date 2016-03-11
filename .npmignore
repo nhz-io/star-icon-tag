@@ -10,3 +10,5 @@ test
 .npmignore
 .travis.yml
 riot.png
+npm-shrinkwrap.json
+*.log
