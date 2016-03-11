@@ -1,6 +1,6 @@
 {
   "name": "star-icon-tag",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Make SVG Stars",
   "license": "MIT",
   "repository": "nhz-io/star-icon-tag",
@@ -45,7 +45,10 @@
   },
   "xo": {
     "esnext": true,
-    "envs": ["node", "browser"],
+    "envs": [
+      "node",
+      "browser"
+    ],
     "ignore": "index.js",
     "rules": {
       "semi": [
