@@ -45,11 +45,11 @@ riot.mount('star-icon')
 
 * `arms` - Number of star arms. *Default: `5`*
 
-* `ratio` Inner points radius / Outer points radius ratio. *Default: `0.6`*
+* `ratio` - Inner points radius / Outer points radius ratio. *Default: `0.6`*
 
-* `rotation` Rotation angle in degrees - *Default: `0`*
+* `rotation` - Rotation angle in degrees - *Default: `0`*
 
-* `zoom` Inner points radius / Outer points radius ratio - *Default: `0.6`*
+* `zoom` - Inner points radius / Outer points radius ratio - *Default: `0.6`*
 
 `fill`, `arms`, `ratio`, `rotation` and `zoom` can be either a single value
 or a comma-separated list of values for each layer. If the count of values
