@@ -1,0 +1,29 @@
+{
+  "name": "star-icon-tag",
+  "version": "0.0.0",
+  "description": "My super-excellent module",
+  "license": "MIT",
+  "repository": "nhz-io/star-icon-tag",
+  "author": {
+    "name": "Ishi Ruy",
+    "email": "dev@nhz.io",
+    "url": "nhz.io/star-icon-tag"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    ""
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^0.12.0",
+    "xo": "^0.12.1"
+  }
+}
