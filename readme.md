@@ -1,4 +1,4 @@
-<p align="center"><img src="examples/star.svg"></p>
+<p align="center"><img src="https://cdn.rawgit.com/nhz-io/star-icon-tag/master/examples/star.svg"></p>
 <h1 align="center">star-icon-tag</h1>
 <p align="center">
   <a href="https://riotjs.com">
@@ -46,7 +46,7 @@ riot.mount('star-icon')
   *Default: `0.6`*
 
 * #### rotation
-  Rotation angle in degrees
+  Rotation angle in degrees  
   *Default: `0`*
 
 * #### zoom
@@ -62,7 +62,7 @@ the first value.
 ## Examples
 
 ### Header star
-![star.svg](examples/star.svg) |
+![star.svg](https://cdn.rawgit.com/nhz-io/star-icon-tag/master/examples/star.svg) |
   ```html
   <star-icon layers="6"
     fill="brown, orange ,yellow,  brown, orange, yellow"
@@ -72,7 +72,7 @@ the first value.
   ```
 
 ### Compass
-![compass.svg](examples/compass.svg)
+![compass.svg](https://cdn.rawgit.com/nhz-io/star-icon-tag/master/examples/compass.svg)
   ```html
   <star-icon layers="8"
     arms="4"
@@ -83,7 +83,7 @@ the first value.
   ```
 
 ### Red
-![compass.svg](examples/red.svg)
+![compass.svg](https://cdn.rawgit.com/nhz-io/star-icon-tag/master/examples/red.svg)
     ```html
     <star-icon layers="3"
       arms="5"
@@ -93,7 +93,7 @@ the first value.
     ```
 
 ### Squares
-![compass.svg](examples/squares.svg)
+![compass.svg](https://cdn.rawgit.com/nhz-io/star-icon-tag/master/examples/squares.svg)
   ```html
   <star-icon layers="8"
     arms="4"
