@@ -22,7 +22,14 @@
   ],
   "main": "index.js",
   "keywords": [
-    ""
+    "nhz.io",
+    "riot",
+    "riot-tag",
+    "star",
+    "stars",
+    "svg",
+    "icon",
+    "star-icon"
   ],
   "dependencies": {
     "riot": "^2.3.17"
