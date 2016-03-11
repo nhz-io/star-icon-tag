@@ -15,7 +15,8 @@
   "scripts": {
     "test": "xo && ava",
     "babel": "./node_modules/.bin/babel",
-    "start": "npm test && npm run babel -- src/star-icon-tag.js -o index.js"
+    "start": "npm test && npm run babel -- src/star-icon-tag.js -o index.js",
+    "prepublish": "npm start"
   },
   "files": [
     "index.js"
