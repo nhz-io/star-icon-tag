@@ -125,14 +125,14 @@ export const paths = (state = {items: []}, opts = {}) => {
 	* @param {Number} ?count
 	* @return {SVGElement}
 	*/
-export const normalize = (svg, count = 0) => {
+export const normalize = (svg, count = 0, dom = document) => {
 	let length = (svg.children || []).length
 	while (length > count) {
 		svg.removeChild(svg.children[length - 1])
 		length--
 	}
 	while (length < count) {
-		svg.appendChild(document.createElementNS(xmlns, 'path'))
+		svg.appendChild(dom.createElementNS(xmlns, 'path'))
 		length++
 	}
 	return svg
@@ -144,8 +144,8 @@ export const normalize = (svg, count = 0) => {
 	* @param {Array<Object>} paths - array of path states
 	* @return {SVGElement}
 	*/
-export const render = (svg, paths) => {
-	normalize(svg, paths.length)
+export const render = (svg, paths, dom = document) => {
+	normalize(svg, paths.length, dom)
 	svg.children::Array.prototype.slice().forEach((path, i) => {
 		['d', 'fill'].forEach(a => path.setAttribute(a, paths[i][a]))
 	})
@@ -156,8 +156,8 @@ export const render = (svg, paths) => {
 	* @desc register the riot tag
 	* @return {Object}
 	*/
-export const register = function () {
-	const svg = document.createElementNS(xmlns, 'svg')
+export const register = function (opts = {}, dom = document) {
+	const svg = dom.createElementNS(xmlns, 'svg')
 	svg.setAttribute('viewBox', '0 0 1 1')
 	let state
 	this.root.appendChild(svg)
