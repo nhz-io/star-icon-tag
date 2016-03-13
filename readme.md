@@ -100,6 +100,10 @@ the first value.
   rotation="45, 45, 0, 0, 45, 45, 0, 0, 45, 45, 0, 0" />
 ```
 
+## See also
+
+![star-icon-hapi](https://star.nhz.io?layers=6&width=30&height=30&fill=navy,silverblue,lightblue,navy,silverblue,lightblue&ratio=0.55,0.5,0.44,0.55,0.5,0.44&rotation=0,0,0,36,36,36&zoom=1,0.95,0.9,0.5,0.45,0.4) [https://github.com/nhz-io/star-icon-hapi](https://github.com/nhz-io/star-icon-hapi)
+
 ## License
 
 MIT © [Ishi Ruy](https://nhz.io/star-icon-tag)
